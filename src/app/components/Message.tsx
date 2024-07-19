@@ -9,7 +9,7 @@ export default function Message() {
 
     return (
         <div className="py-2 flex gap-2">
-            <div className="w-8 h-8 bg-gray-600"></div>
+            <div className="min-w-8 h-8 bg-gray-600"></div>
             <div className="flex flex-col gap-2 bg-red-500">
                 <div className="text-[15px] leading-5">
                     <div className="flex gap-2">

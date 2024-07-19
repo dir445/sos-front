@@ -3,7 +3,7 @@ import Input from '../components/Input';
 
 export default function Page() {
     return ( 
-        <div className='px-4 text-center'>
+        <div className='px-4 text-center mx-auto w-[375px]'>
             <div className='my-6'>
                 <div className='w-[100px] h-[100px] bg-yellow-300 mx-auto mb-2'></div>
                 <p className='font-bold text-base leading-5'>災害SOS</p>

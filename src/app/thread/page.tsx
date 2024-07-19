@@ -5,8 +5,8 @@ import Message from "../components/Message";
 export default function Page() {
     return ( 
         <div className="flex flex-col min-h-screen">
-            <Header/>
-            <div className="mx-4 grow">
+            <Header title="スレッド一覧"/>
+            <div className="mx-auto grow px-4">
                 <Message/>
                 <Message/>
                 <Message/>
